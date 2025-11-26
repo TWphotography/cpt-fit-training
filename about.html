@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>About | CPT FIT Personal Training</title>
+    <meta
+      name="description"
+      content="Learn about Christopher Anthony and CPT FIT Personal Training. From motorsport to fitness coaching."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header" id="top">
+      <div class="container header-bar">
+        <a class="brand" href="index.html" aria-label="CPT FIT logo">
+          <img src="cptfit-logo.png" alt="CPT FIT logo" />
+          <div>
+            <span>CPT FIT</span>
+            <small>Personal Training</small>
+          </div>
+        </a>
+        <nav class="primary-nav" aria-label="Primary navigation">
+          <button class="nav-toggle" aria-expanded="false" aria-controls="nav-list">
+            <span>Menu</span>
+          </button>
+          <ul id="nav-list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="book-online.html">Book Online</a></li>
+            <li><a href="pricing-plans.html">Plans &amp; Pricing</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="terms-conditions.html">Terms &amp; Conditions</a></li>
+            <li><a href="privacy-policy.html">Privacy Policy</a></li>
+            <li><a href="refund-policy.html">Refund Policy</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="section">
+        <div class="container">
+          <div class="section-heading">
+            <h1>About</h1>
+          </div>
+          <div class="split" style="margin-top: 3rem;">
+            <div class="media-stack">
+              <figure class="media-frame" style="padding-top: 0; height: auto; display: flex; flex-direction: column;">
+                <img src="formula-photo.png" alt="Coach Christopher Anthony - Formula racing background" style="width: 100%; height: auto; object-fit: contain; border-radius: 1.5rem; display: block;" />
+                <figcaption style="position: relative; margin-top: 1rem; align-self: flex-start;">Coach Christopher Anthony</figcaption>
+              </figure>
+            </div>
+            <div>
+              <h2>The Full Story</h2>
+              <p>
+                CPT FIT was born from my passion for fitness and a deep commitment to helping others unlock their full physical potential. With nationally recognised qualifications (Certificate III &amp; IV in Fitness), I'm dedicated to coaching individuals of all fitness levels—guiding them to train smarter, move better, and achieve lasting results safely and effectively.
+              </p>
+              <p>
+                My journey began not in a gym, but on the racetrack. As a former open-wheel motorsport competitor at a high level—both in Australia and overseas—I've experienced firsthand how crucial both physical and mental conditioning are to peak performance. Whether you're chasing success in sport, work, or personal goals, fitness is the foundation.
+              </p>
+              <p>
+                Over the past three years, I've worked hands-on with a wide range of clients, helping them achieve real, measurable results—from weight loss and strength gains to improved mobility and confidence. My coaching is built on personal experience, practical knowledge, and a results-driven approach tailored to each individual.
+              </p>
+              <p>
+                I've had the privilege of learning from some of the best, including training with the CAMS Elite Driver Academy, Ben Cook's Fitness 2 Podium program, and completing my certifications through Fit College.
+              </p>
+              <p>
+                Now, I'm here to share that experience with you.
+              </p>
+              <p>
+                If you're ready to take the first step—or the next step—on your fitness journey, CPT FIT is here to help you train with purpose, confidence, and results.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--accent">
+        <div class="container">
+          <div class="section-heading">
+            <h2>Let's Work Together</h2>
+            <p>Get in touch so we can start working together.</p>
+          </div>
+          <div style="max-width: 600px; margin: 0 auto;">
+            <form style="display: grid; gap: 1.5rem; margin-top: 2rem;">
+              <div>
+                <label for="firstName" style="display: block; margin-bottom: 0.5rem; font-weight: 500;">First Name</label>
+                <input type="text" id="firstName" name="firstName" style="width: 100%; padding: 0.75rem; border-radius: 0.5rem; border: 1px solid rgba(148, 163, 184, 0.3); background: var(--surface); color: var(--text);" />
+              </div>
+              <div>
+                <label for="lastName" style="display: block; margin-bottom: 0.5rem; font-weight: 500;">Last Name</label>
+                <input type="text" id="lastName" name="lastName" style="width: 100%; padding: 0.75rem; border-radius: 0.5rem; border: 1px solid rgba(148, 163, 184, 0.3); background: var(--surface); color: var(--text);" />
+              </div>
+              <div>
+                <label for="email" style="display: block; margin-bottom: 0.5rem; font-weight: 500;">Email *</label>
+                <input type="email" id="email" name="email" required style="width: 100%; padding: 0.75rem; border-radius: 0.5rem; border: 1px solid rgba(148, 163, 184, 0.3); background: var(--surface); color: var(--text);" />
+              </div>
+              <div>
+                <label for="message" style="display: block; margin-bottom: 0.5rem; font-weight: 500;">Message</label>
+                <textarea id="message" name="message" rows="5" style="width: 100%; padding: 0.75rem; border-radius: 0.5rem; border: 1px solid rgba(148, 163, 184, 0.3); background: var(--surface); color: var(--text); resize: vertical;"></textarea>
+              </div>
+              <button type="submit" class="btn" style="justify-self: start;">Send</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer" id="contact">
+      <div class="container footer-grid">
+        <div>
+          <h3>CPT FIT Personal Training</h3>
+          <p>Real support, real results for every fitness level.</p>
+        </div>
+        <div>
+          <p><strong>Phone:</strong> <a href="tel:+61420586321">0420 586 321</a></p>
+          <p><strong>Email:</strong> <a href="mailto:car21@live.com.au">car21@live.com.au</a></p>
+          <p><strong>Location:</strong> Cooma NSW 2630, Australia</p>
+        </div>
+        <div class="footer-links">
+          <a href="privacy-policy.html">Privacy Policy</a>
+          <a href="terms-conditions.html">Terms &amp; Conditions</a>
+          <a href="refund-policy.html">Refund Policy</a>
+        </div>
+      </div>
+      <p class="footer-meta">© 2035 CPT FIT Personal Training. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js" type="module"></script>
+  </body>
+</html>
+
